@@ -1,0 +1,34 @@
+{
+  "algorithm": "Logistic Regression",
+  "accuracy": 0.5788643533123028,
+  "precision": 0.5675453696376968,
+  "recall": 0.5788643533123028,
+  "f1_score": 0.5713132436764358,
+  "train_time_sec": 123.3132756,
+  "best_params": {
+    "C": 0.1,
+    "solver": "lbfgs"
+  },
+  "confusion_matrix": [
+    [
+      97,
+      16,
+      66
+    ],
+    [
+      22,
+      468,
+      151
+    ],
+    [
+      49,
+      230,
+      169
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "algorithm": "Naive Bayes",
+  "accuracy": 0.48738170347003157,
+  "precision": 0.514606239310773,
+  "recall": 0.48738170347003157,
+  "f1_score": 0.49238292865754524,
+  "train_time_sec": 122.15827529999979,
+  "best_params": {
+    "var_smoothing": 1e-09
+  },
+  "confusion_matrix": [
+    [
+      114,
+      2,
+      63
+    ],
+    [
+      92,
+      350,
+      199
+    ],
+    [
+      116,
+      178,
+      154
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}

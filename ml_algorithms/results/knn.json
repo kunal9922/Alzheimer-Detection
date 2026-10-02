@@ -1,0 +1,34 @@
+{
+  "algorithm": "K-Nearest Neighbors",
+  "accuracy": 0.6561514195583596,
+  "precision": 0.6582759353364391,
+  "recall": 0.6561514195583596,
+  "f1_score": 0.6564184351496481,
+  "train_time_sec": 108.82094779999989,
+  "best_params": {
+    "n_neighbors": 7,
+    "weights": "uniform"
+  },
+  "confusion_matrix": [
+    [
+      129,
+      25,
+      25
+    ],
+    [
+      41,
+      443,
+      157
+    ],
+    [
+      41,
+      147,
+      260
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}

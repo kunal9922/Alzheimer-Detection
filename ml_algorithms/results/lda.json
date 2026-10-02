@@ -1,0 +1,33 @@
+{
+  "algorithm": "Linear Discriminant Analysis",
+  "accuracy": 0.554416403785489,
+  "precision": 0.6189013232781507,
+  "recall": 0.554416403785489,
+  "f1_score": 0.5409791979830518,
+  "train_time_sec": 123.9010045,
+  "best_params": {
+    "solver": "svd"
+  },
+  "confusion_matrix": [
+    [
+      26,
+      5,
+      148
+    ],
+    [
+      1,
+      438,
+      202
+    ],
+    [
+      0,
+      209,
+      239
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}

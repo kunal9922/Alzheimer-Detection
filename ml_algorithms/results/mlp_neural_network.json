@@ -1,0 +1,38 @@
+{
+  "algorithm": "Multi-Layer Perceptron (Neural Network)",
+  "accuracy": 0.6600946372239748,
+  "precision": 0.6609190662344377,
+  "recall": 0.6600946372239748,
+  "f1_score": 0.6582063665773504,
+  "train_time_sec": 319.3395095000001,
+  "best_params": {
+    "activation": "relu",
+    "alpha": 0.0001,
+    "hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "confusion_matrix": [
+    [
+      134,
+      14,
+      31
+    ],
+    [
+      50,
+      465,
+      126
+    ],
+    [
+      47,
+      163,
+      238
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}

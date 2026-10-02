@@ -1,0 +1,35 @@
+{
+  "algorithm": "Support Vector Machine",
+  "accuracy": 0.6466876971608833,
+  "precision": 0.6462649774593241,
+  "recall": 0.6466876971608833,
+  "f1_score": 0.6459773925414408,
+  "train_time_sec": 123.00298359999988,
+  "best_params": {
+    "C": 10,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "confusion_matrix": [
+    [
+      118,
+      29,
+      32
+    ],
+    [
+      37,
+      458,
+      146
+    ],
+    [
+      47,
+      157,
+      244
+    ]
+  ],
+  "label_names": [
+    "Mild_Demented",
+    "Non_Demented",
+    "Very_Mild_Demented"
+  ]
+}
